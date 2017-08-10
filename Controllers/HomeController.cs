@@ -50,5 +50,10 @@ namespace webapp.Controllers
         {
             return View();
         }
+
+        public string Stormtrooper()
+        {
+            return "Boom Boom";
+        }
     }
 }
